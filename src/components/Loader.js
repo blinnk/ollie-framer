@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { motion } from 'framer-motion'
 import Image from './Image'
 
@@ -43,7 +43,7 @@ const itemMain = {
 }
 
 const Loader = ({ setLoading }) => {
-  
+
 
   return (
     <div className='loader'>

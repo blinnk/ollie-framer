@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { motion, AnimatePresence, AnimateSharedLayout } from 'framer-motion'
 import './sass/main.scss'
 
@@ -7,7 +7,7 @@ import Header from './components/Header'
 import Banner from './components/Banner'
 import Loader from './components/Loader'
 
-function App () { 
+function App () {
   const [loading, setLoading] = useState(true)
 
   return (
